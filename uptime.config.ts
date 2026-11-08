@@ -11,14 +11,24 @@ const pageConfig: PageConfig = {
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
     { link: 'https://github.com/lyc8503', label: 'GitHub' },
-    { link: 'https://blog.lyc8503.net/', label: 'Blog' },
-    { link: 'mailto:me@lyc8503.net', label: 'Email Me', highlight: true },
   ],
 }
 
 const workerConfig: WorkerConfig = {
   // Define all your monitors here
   monitors: [
+   {
+      id: 'foo_monitor',
+      name: 'My API Monitor',
+      method: 'GET',
+      target: 'https://www.google.com'
+    },
+    {
+      id: 'cloady.com',
+      name: 'cloady.com',
+      method: 'GET',
+      target: 'https://node-alpine1-dphzdghw-rapid-falcon-2.cloady.io/'
+    },
     // Example HTTP Monitor
     {
       // `id` should be unique, history will be kept if the `id` remains constant
