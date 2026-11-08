@@ -24,6 +24,12 @@ const workerConfig: WorkerConfig = {
       target: 'https://node-alpine1-dphzdghw-rapid-falcon-2.cloady.io/',
       expectedCodes: [401],
     },
+    {
+      id: 'foo_monitor',
+      name: 'My API Monitor',
+      method: 'GET',
+      target: 'https://www.google.com'
+    },
   ],
 }
  
