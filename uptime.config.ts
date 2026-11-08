@@ -28,7 +28,7 @@ const workerConfig: WorkerConfig = {
       id: 'llc',
       name: 'llc',
       method: 'GET',
-      target: 'https://llc.taid.eu.cc'
+      target: 'https://llc.taid.eu.cc',
     },
   ],
 }
