@@ -25,10 +25,10 @@ const workerConfig: WorkerConfig = {
       expectedCodes: [401],
     },
     {
-      id: 'foo_monitor',
-      name: 'My API Monitor',
+      id: 'llc',
+      name: 'llc',
       method: 'GET',
-      target: 'https://www.google.com'
+      target: 'https://llc.taid.eu.cc'
     },
   ],
 }
