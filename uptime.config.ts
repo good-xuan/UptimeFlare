@@ -21,8 +21,7 @@ const workerConfig: WorkerConfig = {
       id: 'cloady.com',
       name: 'cloady.com',
       method: 'GET',
-      target: 'https://node-alpine1-dphzdghw-rapid-falcon-2.cloady.io/',
-      expectedCodes: [401],
+      target: 'https://node-alpine1-qggs8s7c-rapid-falcon-2.cloady.io/',
     },
     {
       id: 'llc',
