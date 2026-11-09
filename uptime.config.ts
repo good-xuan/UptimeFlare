@@ -30,6 +30,13 @@ const workerConfig: WorkerConfig = {
       method: 'GET',
       target: 'https://llc.taid.eu.cc',
     },
+   {
+      id: 'dcdeploy',
+      name: 'dcdeploy',
+      method: 'GET',
+      target: 'farand-nq736zisiu.dcdeploy.cloud',
+      expectedCodes: [401],
+    },
   ],
 }
  
