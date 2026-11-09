@@ -33,8 +33,7 @@ const workerConfig: WorkerConfig = {
       id: 'dcdeploy',
       name: 'dcdeploy',
       method: 'GET',
-      target: 'farand-nq736zisiu.dcdeploy.cloud',
-      expectedCodes: [401],
+      target: 'https://saudra-oph2fcakc5.dcdeploy.cloud/',
     },
   ],
 }
